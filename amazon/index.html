@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="./images/fabicon-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+    <title>Amazon</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+     <!---------------------------header start---------------------------------------------------------  -->
+            <div class="header">
+                <div class="logo"></div>
+                <div class="location">
+                    <p>Delivering to Lucknow 226013 <br>
+                        <i class="fa-solid fa-location-dot"></i>&nbsp;<b>Update location</b></p>
+                </div>
+                <div class="search">
+                    <div class="all">All&nbsp;<i class="fa-solid fa-caret-down"></i></div>
+                    <div class="inpt"><input id="inputext" type="text" placeholder="Search Amazon.in"></div>
+                    <div class="icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="EN"><img src="images/flag-removebg-preview.png" alt="" height="22px" width="20px">EN&nbsp;<i class="fa-solid fa-caret-down"></i></div>
+                <div class="signin">
+                    <p>Hello,sign in <br>
+                    <b>Account & Lists</b>&nbsp;<i class="fa-solid fa-caret-down"></i></p>
+                </div>
+                <div class="return">
+                    Returns <br> & Orders
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>&nbsp;<p>Cart</p>
+                </div>
+            </div>
+  <!-- -----------------------------------------header End------------------------------------------------------------ -->
+            <div class="nevigation">
+                <p style="color: #fff;font-size: 15px; cursor: pointer;"><i class="fa-solid fa-bars" style="font-size: 19px;margin-top: 5px;"></i> &nbsp;All &nbsp;&nbsp;&nbsp;&nbsp;Amazon miniTV&nbsp;&nbsp;&nbsp;&nbsp;Sell&nbsp;&nbsp;&nbsp;&nbsp;
+                Best Sellers&nbsp;&nbsp;&nbsp;&nbsp;Mobiles&nbsp;&nbsp;&nbsp;&nbsp;Today's Deals&nbsp;&nbsp;&nbsp;&nbsp;Electronics&nbsp;&nbsp;&nbsp;&nbsp;Customer Service&nbsp;&nbsp;&nbsp;&nbsp;New Releases&nbsp;&nbsp;&nbsp;&nbsp;Prime&nbsp;<i class="fa-solid fa-caret-down"></i>
+                &nbsp;&nbsp;&nbsp;&nbsp;Home & Kitchen&nbsp;&nbsp;&nbsp;&nbsp;Gift Ideas&nbsp;&nbsp;&nbsp;&nbsp;Fashion&nbsp;&nbsp;&nbsp;&nbsp;AmazonPay
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <div class="card" style="padding-top: 2%;width: 98%;margin:3% 0 0 1% ;">
+                    <div class="Shopping">
+                    <div style="float: left;width: 50%;margin-left: 2%;">
+                    <h4>Shopping Cart</h4>
+                    </div>
+                    <div style="float: right;margin-top: 13px;margin-right: 2%;">
+                    <span style="font-weight: normal;display: inline-block; font-size: 18px;">Price</span>
+                    </div>
+                    </div>
+                    <div style="width: 96%; height: 1px; border: 1px solid rgb(212, 212, 212); margin:1% 2% 2% 2%;"></div>
+                     <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="images/t-shirt.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lymio Men T-Shirt || T-Shirt for Men || Printed T Shirt || T-Shirt <br>Tedy-Tshirt-11-14 (M, Grey)</h5>
+                                  <p><small style="color: green;">In stock <br><span style="color: grey;">Eligible for Free Shipping <br><img src="images/tags.jpg" alt="" height="25px" width="25%"></span></small><br>
+                                   <input type="checkbox" name="" id="">&nbsp;This will be a gift Learn more <br>
+                                   <span style="font-size: 18px;font-weight: bolder;">Size:</span> M <br>
+                                   <span style="font-size: 18px;font-weight: bolder;">Colour:</span> Grey <br></p>           
+                                   <div class="qtybtn">
+                                   <label for="">Qty:</label>
+                                   <select name="qulity" id="item" onchange="qty()">
+                                         <option selected>1</option>
+                                         <option>2</option>
+                                         <option>3</option>
+                                         <option>4</option>
+                                         <option>5</option>
+                                         <option>6</option>
+                                         <option>7</option>
+                                         <option>8</option>
+                                         <option>9</option>
+                                         <option>10</option>
+                                        </select>
+                                   </div><small>&nbsp;&nbsp;|&nbsp;&nbsp;Delete&nbsp;&nbsp;|&nbsp;&nbsp;Save for later&nbsp;&nbsp;|&nbsp;&nbsp;See more like this</small>
+                                </div>
+                              </div>
+                              <div class="col-md-2" style="padding-right: 2%;">
+                                <h5  style="display: inline-block;float:right;font-size: 25px;font-weight: bolder;"> &#8377;<span id="prize">379.00</span></h5>
+                              </div>
+                        </div>   
+                        <div style="width: 96%; height: 1px; border: 1px solid rgb(212, 212, 212); margin:1% 2% 2% 2%;"></div>
+                        <h5 style="margin-left: 70%;display: inline-block;margin-bottom: 2%;">Subtotal (<span id="item1">1</span> item): &#8377;<span id="total1">379.00</span></h5>
+                  </div>
+        <!-- ============================================================================cart card================================================================================================== -->
+                  
+                <div class="card footer"></div>
+                <p style="font-size: 12px; margin: 0 2% 0 2%;">The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price. <br>
+                    Do you have a promotional code? We'll ask you to enter your claim code when it's time to pay.</p>
+            </div>
+            <div class="right">
+                <div class="card text-center mb-3 mt-4" style="width: 18rem; height: 230px;">
+                    <div class="card-body mt-2">
+                        <p style="font-size: 13px; text-align: left;margin-left: 2%;"><span style="font-size: 16px;background-color: rgb(26, 139, 139);color: #fff;padding: 0px 8px 1px 8px;border-radius: 50%;">i</span> Add <span style="color: rgb(161, 25, 25);">₹120.00</span> of eligible items to your <br> &nbsp;&nbsp;&nbsp;&nbsp;order to qualify for FREE Delivery. Details</p>
+                      <h5 class="card-title" style="text-align: left;">Subtotal (<span id="item2">1</span> item): &#8377;<span id="total2">379.00</span></h5>
+                      <p class="card-text" style="text-align: left;"><input type="checkbox" name="" id="">&nbsp;This order contains a gift <br></p>
+                      <a href="#" class="buybtn"><button> Proceed to Buy</button></a>
+                    </div>
+                  </div>
+            <div class="card mt-2 right-down">
+               <div class="row px-3 pt-3">
+                <p style="font-size: 19px;font-weight: bolder;">Customers who shopped for <br> Lymio Men T-Shirt || T-Shirt <br> for Men || Printed T ... also <br> shopped for:</p>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-4 py-4">
+                    <img src="images/t1.jpg" alt="..." height="135px" width="115px">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 15px; color: rgb(0,113,133);">Lymio Men T-Shirt || T- <br>Shirt for Men||Print...</h5>
+                      <p class="card-title"><img src="images/t1star.png" alt="" height="25px" width="90%" style="margin-top: 0;"></p>
+                      <p class="card-text"><small style="font-size: 18px;color: rgb(197, 20, 20);">&#8377;379.00</small></p>
+                      <a href="#" style="text-decoration: none;color: black;">
+                        <span style="background-color: #fff;box-shadow: 1px 1px 3px gray;padding: 3px 6px 2px 6px;border-radius: 10px;font-size: 13px;">See all buying options</span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row g-0">
+                    <div class="col-md-4 py-4">
+                      <img src="images/t2.jpg" alt="..." height="135px" width="115px">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="font-size: 15px; color: rgb(0,113,133);">Lymio Men T-Shirt || T- <br>Shirt for Men||Print...</h5>
+                        <p class="card-title"><img src="images/t2star.png" alt="" height="25px" width="90%" style="margin-top: 0;"></p>
+                        <p class="card-text"><small style="font-size: 18px;color: rgb(197, 20, 20);">&#8377;379.00</small></p>
+                        <a href="#" style="text-decoration: none;color: black;">
+                          <span style="background-color: #fff;box-shadow: 1px 1px 3px gray;padding: 3px 6px 2px 6px;border-radius: 10px;font-size: 13px;">See all buying options</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row g-0">
+                    <div class="col-md-4 py-4">
+                      <img src="images/t3.jpg" alt="..." height="135px" width="115px">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="font-size: 15px; color: rgb(0,113,133);">Lymio Men T-Shirt || T- <br>Shirt for Men||Print...</h5>
+                        <p class="card-title"><img src="images/t3star.png" alt="" height="25px" width="90%" style="margin-top: 0;"></p>
+                        <p class="card-text"><small style="font-size: 18px;color: rgb(197, 20, 20);">&#8377;379.00</small></p>
+                        <a href="#" style="text-decoration: none;color: black;">
+                          <span style="background-color: #fff;box-shadow: 1px 1px 3px gray;padding: 3px 6px 2px 6px;border-radius: 10px;font-size: 13px;">See all buying options</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+            </div>
+        </div>
+        
+        <div class="row footerbotm">
+            <div class="row" style="height: 300px;">
+             <div class="col-md-3 py-5 px-5" style="color: #fff;height: 300px;">
+                <h5>Get to Know Us</h5>  
+                <p class="botm"  style="cursor: pointer;">About Us <br>
+                    Careers <br>
+                    Press Releases <br>
+                    Amazon Science</p>          
+            </div>
+             <div class="col-md-3 py-5 px-3" style="color: #fff;height: 300px;">
+                <h5>Connect With Us</h5>
+                <p class="botm" style="cursor: pointer;">Facebook <br>
+                    Twitter <br>
+                    Instagram</p>
+            </div>
+             <div class="col-md-3 py-5 px-4" style="color: #fff;height: 300px;">
+                    <h5>Make Money With Us</h5>
+                    <p class="botm" style="cursor: pointer;">Sell on Amazon <br>
+                        Sell under Amazon Accelerator <br>
+                        Protect and Build Your Brand <br>
+                        Amazon Global Selling <br>
+                        Become an Affiliate <br>
+                        Fulfilment by Amazon <br>
+                        Advertise Your Products <br>
+                        Amazon Pay on Merchants</p>
+            </div>
+             <div class="col-md-3 py-5 px-4" style="color: #fff;height: 300px;">
+                <h5>Let Us Help You</h5>
+                <p class="botm" style="cursor: pointer;">COVID-19 and Amazon <br>
+                    Your Account <br>
+                    Returns Centre <br>
+                    100% Purchase Protection <br>
+                    Amazon App Download <br>
+                    Help</p>
+            </div>
+            <hr style="color: gray;margin-left:10px; ">
+        </div>
+        <div class="footerlogo"></div>
+        <div style="text-align: center;">
+            <p style="color: #fff;font-size: 13px;">Conditions of Use & Sale &nbsp;&nbsp;Privacy Notice &nbsp;&nbsp;Interest-Based Ads <br>
+            &copy;&nbsp;1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
